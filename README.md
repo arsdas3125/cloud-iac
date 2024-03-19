@@ -1,5 +1,2 @@
-# demo-recipes
-Repository for recipes web application 
-This is new web application 
-
-New recipes applicaiton will have a catalog of recipes
+# Repository for Tools (Sunny Das)
+Repository of tools for the Cloud 
