@@ -1,0 +1,10 @@
+1. Reference URL: https://learn.microsoft.com/en-us/azure/databricks/dev-tools/terraform/service-principals
+
+2. This is a simple scipt create Service Principal Account. 
+
+3. The key variable is "keyv_usr" . "keyv_usr" is name of your SP account. 
+    3A. Azure Service Principal Account create "AZSPACCTCREATE"
+
+4. After you create the service principal, copy the azure_client_id and azure_client_secret output values, as you will need them later.
+
+5. To get the azure_client_secret value, see the value of outputs.client_secret.value in the terraform.tfstate file, which is in the working directory containing the main.tf file.
